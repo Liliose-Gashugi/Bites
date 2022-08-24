@@ -1,0 +1,444 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+}
+
+.logo-img {
+  width: 61px;
+  height: 61px;
+  border-radius: 50%;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  width: 20%;
+}
+.logo p {
+  margin: 10px;
+}
+iconify-icon {
+  color: white;
+  font-size: 20px;
+}
+.navbar {
+  display: flex;
+
+  width: 50%;
+  align-items: center;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+ul li {
+    list-style-type: none;
+    margin-left: 40px;
+
+}
+
+ul{
+    display: flex;
+    
+
+}
+.cart {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid orange;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.cart iconify-icon{
+    color: orange;
+    
+}
+.reserve{
+    align-items: center;
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    
+}
+.reserve-btn{
+    width: 165px;
+    height: 36px;
+    border-radius: 10px;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 35px;
+}
+.food-btn{
+    width: 190px;
+    height: 51px;
+    border-radius: 20px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.Search{
+    width: 190px;
+    height: 51px;
+    border-radius: 20px;
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 45px;
+}
+.buttons{
+    display: flex;
+}
+.body{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.serve{
+    display: flex;
+    align-items: center;
+    width: 46%;
+    height: 450px;
+    
+}
+.serve h3{
+    font-size: 40px;
+    font-weight: bold;
+
+
+}
+.words{
+    font-size: 20px;
+    opacity: .6;
+   
+}
+.Search{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+.Search img{
+    margin-right: 10px;
+}
+.dishes h2{
+    margin-left: 90px;
+}
+.dishes{
+    display: flex;
+    flex-direction: column;
+}
+.option-1{
+    width: 300px;
+    height: 420px;
+    background-color: white;
+}
+.Pasta-opt{
+    display: flex;
+    align-items: center;
+    
+}
+.add p{
+    margin-left: 80px;
+}
+.all-orders{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pasta-img img{
+    width: 290px;
+    height: 202px;
+}
+.option-2,.option-3, .option-4{
+    width: 300px;
+    height: 420px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.fries-img img{
+    width: 196px;
+    height: 192px;
+    
+}
+.burrito-img img{
+    width: 197px;
+    height: 134px;
+}
+.fish-img img{
+    width: 262px;
+    height: 184px;
+}
+.add p {
+    width: 110px;
+    height: 38px;
+    border-radius: 20px;
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 16px;
+}
+.pasta h4{
+    font-size: 30;
+    font-weight: bold;
+}
+.pasta img{
+    width: 120px;
+    height: 20px;
+}
+.pasta p{
+    font-size: 16px;
+    
+}
+.dollars p{
+    font-size: 30px;
+    font-weight: bold;
+}
+.first{
+    font-size: 40px;
+    font-weight: bold;
+}
+.second{
+    font-size: 20px;
+}
+.reservation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reservation-btn{
+    width: 294px;
+    height: 70px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: orange;
+    font-weight: bold;
+    font-size: 20px;
+}
+.special-fd{
+    width: 179px;
+    height: 52px;
+    border-radius: 20px;
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+.mexico{
+    width: 179px;
+    height: 52px;
+    border-radius: 20px;
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+.italy{
+    width: 179px;
+    height: 52px;
+    border-radius: 20px;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+.japan{
+    width: 179px;
+    height: 52px;
+    border-radius: 20px;
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+.soda{
+    width: 179px;
+    height: 52px;
+    border-radius: 20px;
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+.lunchi{
+    width: 179px;
+    height: 52px;
+    border-radius: 20px;
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bolder;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+}
+.title p{
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 90px;
+}
+.l1-btn{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    border: 1px solid orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 50px;
+}
+.l2-btn{
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    display: flex;
+    align-items: center;
+}
+.play-btn{
+    display: flex;
+    margin-left: 1000px;
+}
+.testimony{
+    display: flex;
+    align-items: center;
+}
+.witness-1{
+    width: 490px;
+    height: 408px;
+    border-radius: 43px;
+    background-color: #fccb82 ;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.witness-2{
+    width: 490px;
+    height: 408px;
+    border-radius: 43px;
+    background-color: #fccb82 ;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.witness-3{
+    width: 490px;
+    height: 408px;
+    border-radius: 43px;
+    background-color: #fccb82 ;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.all-orders{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.words-reserve{
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    justify-content: center; */
+}
+.bowl{
+    margin-left: 300px;
+    margin-top: 80px;
+}
+.fries-img, .burrito-img, .fish-img{
+    display: flex;
+    justify-content: center;
+}
+.fish, .burrito, .fries, .pasta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.nine{
+    display: flex;
+    justify-content: center;
+}
+.six{
+    font-weight: bold;
+    font-size: 40px;
+    margin-left: 90px;
+}
+.option-2, .option-3, .option-4 {
+    margin-left: 70px;
+}
+.option-1, .option-2, .option-3, .option-4{
+    /* box-shadow: 0px 10px 8px 10px #000000 ; */
+    height: 450px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.hirwa, .lili, .alain{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.f-chef img{
+    width: 346px;
+    height: 383px;
+}
+.s-chef img{
+    width: 272px;
+    height: 383px;
+}
+.t-chef img{
+    width: 346px;
+    height: 383px;
+}
+
+.people{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.two{
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 90px;
+}
